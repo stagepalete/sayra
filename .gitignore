@@ -1,0 +1,13 @@
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+**/migrations/*.py
+!**/migrations/__init__.py
+**/migrations/*.pyc
+**/migrations/__pycache__/
+
+venv/
+
+db.sqlite3
+
+media/
